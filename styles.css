@@ -1,0 +1,157 @@
+body {
+    font-family: Ubuntu;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(23, 23, 31);
+}
+
+#header, #hero, #footer {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 10%;
+}
+
+#header {
+    justify-content: space-between;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    color: #fff;
+}
+
+#hero {
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+
+#hero-description {
+    text-align: left;
+    max-width: 50%;
+}
+
+#hero-description h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+
+#hero-description button {
+    background-color: rgb(76, 129, 226);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(76, 129, 226);
+}
+
+#hero-image {
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    background-color: grey;
+    border-radius: 16px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+.card {
+    width: 200px;
+}
+.card-image {
+    background-color: khaki;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    border: 3px solid rgb(76,129,226);
+    border-radius: 8px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-text, #quote-author {
+    width: 70%;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+#quote-author {
+    text-align: end;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(76,129,226);
+    border-radius: 8px;
+    width: 800px;
+    margin: 40px auto;
+}
+
+#call-to-action-text {
+    margin-left: 50px;
+    text-align: left;
+    color: #fff;
+}
+
+#call-to-action-text h3 {
+    margin-bottom: -10px;
+}
+
+#call-to-action button {
+    margin-right: 50px;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgb(76,129,226);
+    color: white;
+    padding: 5px 20px;
+}
+
+#footer {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+}
